@@ -11,7 +11,7 @@ rm(list = ls())
 library(tidyverse)
 library(MatchIt)
 
-# Input: one row per woman, both cohorts combined
+# Input: one row per woman, one scan each (0–3 month postpartum MRI for the pregnant cohort), both cohorts combined
 # preg_status = 1 (early postpartum) or 0 (non-pregnant)
 # Covariates: age_at_mri, phenotype_at_mri, disease_duration_at_mri, edss_closest,
 #             relapse_preceding_3mo, year, het_met_preceding_yr
