@@ -16,13 +16,12 @@ the analyses reported in the manuscript.
 ## Scripts
 
 **`01_lme_model_global_metrics.R`**
-Linear mixed-effects models of global brain volumes across four timepoints, with
-a random intercept for participant. Produces Figure 1 and Table 2.
+Linear mixed-effects models of global brain volumes across the peripregnancy period, with
+a random intercept for participant. Produces the estimates shown in Figure 1 and Table 2.
 
 **`02_propensity_score_matching.R`**
 1:1 nearest-neighbour propensity score matching of early postpartum to
-non-pregnant women. Produces the matched cohort, the supplementary balance table
-and the Love plot.
+non-pregnant women. Produces the matched cohort.
 
 **`03_cross-sectional_comparisons.R`**
 Welch's t-tests comparing global brain volumes between the matched cohorts.
@@ -38,7 +37,7 @@ covariates and thresholds are described in full in the manuscript Methods.
 ## Software
 
 R v4.2.2 (R Foundation for Statistical Computing, Vienna, Austria) with
-`tidyverse`, `lmerTest`, `emmeans`, `MatchIt` and `cobalt`.
+`tidyverse`, `lmerTest`, `emmeans`, and `MatchIt`.
 
 CAT12 v12.9, implemented in SPM25 v25.01 (Wellcome Centre for Human
 Neuroimaging, UCL, London, UK) and run in MATLAB R2024b (MathWorks, Natick, MA).
